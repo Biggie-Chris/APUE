@@ -66,7 +66,7 @@ void	 sleep_us(unsigned int);			/* {Ex sleepus} */
 ssize_t	 readn(int, void *, size_t);		/* {Prog readn_writen} */
 ssize_t	 writen(int, const void *, size_t);	/* {Prog readn_writen} */
 
-int		 fd_pipe(int *);					/* {Prog sock_fdpipe} */
+int		 fd_pipe(int fd[2]);				/* {Prog sock_fdpipe} */
 int		 recv_fd(int, ssize_t (*func)(int,
 		         const void *, size_t));	/* {Prog recvfd_sockets} */
 int		 send_fd(int, int);					/* {Prog sendfd_sockets} */

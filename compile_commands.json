@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/chris/Desktop/APUE",
+    "command": "gcc -I/home/chris/Desktop/APUE/include -Wall -ansi -DLINUX -D_GNU_SOURCE -c /home/chris/Desktop/APUE/test_intellisense.c -o /home/chris/Desktop/APUE/test_intellisense.o",
+    "file": "/home/chris/Desktop/APUE/test_intellisense.c"
+  },
+  {
+    "directory": "/home/chris/Desktop/APUE",
+    "command": "gcc -I/home/chris/Desktop/APUE/include -Wall -ansi -DLINUX -D_GNU_SOURCE -c /home/chris/Desktop/APUE/daemons/init.c -o /home/chris/Desktop/APUE/daemons/init.o",
+    "file": "/home/chris/Desktop/APUE/daemons/init.c"
+  },
+  {
+    "directory": "/home/chris/Desktop/APUE",
+    "command": "gcc -I/home/chris/Desktop/APUE/include -Wall -ansi -DLINUX -D_GNU_SOURCE -c /home/chris/Desktop/APUE/threads/barrier.c -o /home/chris/Desktop/APUE/threads/barrier.o -lpthread",
+    "file": "/home/chris/Desktop/APUE/threads/barrier.c"
+  },
+  {
+    "directory": "/home/chris/Desktop/APUE",
+    "command": "gcc -I/home/chris/Desktop/APUE/include -Wall -ansi -DLINUX -D_GNU_SOURCE -c /home/chris/Desktop/APUE/intro/hello.c -o /home/chris/Desktop/APUE/intro/hello.o",
+    "file": "/home/chris/Desktop/APUE/intro/hello.c"
+  },
+  {
+    "directory": "/home/chris/Desktop/APUE",
+    "command": "gcc -I/home/chris/Desktop/APUE/include -Wall -ansi -DLINUX -D_GNU_SOURCE -c /home/chris/Desktop/APUE/filedir/devrdev.c -o /home/chris/Desktop/APUE/filedir/devrdev.o",
+    "file": "/home/chris/Desktop/APUE/filedir/devrdev.c"
+  }
+]

@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build (basic)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-I${workspaceFolder}/include",
+                "-Wall",
+                "-ansi",
+                "-DLINUX",
+                "-D_GNU_SOURCE",
+                "${file}",
+                "${workspaceFolder}/lib/libapue.a",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "build (with pthread)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-I${workspaceFolder}/include",
+                "-Wall",
+                "-ansi",
+                "-DLINUX",
+                "-D_GNU_SOURCE",
+                "${file}",
+                "${workspaceFolder}/lib/libapue.a",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lpthread"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
